@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Kaushan+Script|Montserrat:300i,400,700&amp;subset=cyrillic-ext" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <title>session </title>
+</head>
+<body>
+
+
+<header class="header" id="header">
+    <div class="container">
+        <div class="header__inner">
+            <div class="header__logo" data-scroll="#intr2">
+                <img src="2.jpg" alt="">
+            </div>
+
+            <nav class="nav" id="nav">
+                <a class="nav__link" href="#" data-scroll="#about">о нас</a>
+                <a class="nav__link" href="#" data-scroll="#blog">новости</a>
+                <a class="nav__link" href="#" data-scroll="#works">специальности</a>
+                <a class="nav__link" href="#">
+                </a>
+                <a class="nav__link" href="#">
+                    <i class="fas fa-search"></i>
+                </a>
+            </nav>
+
+            <button class="nav-toggle" id="nav_toggle" type="button">
+                <span class="nav-toggle__item">Menu</span>
+            </button>
+        </div>
+    </div>
+</header>
+
+
+<div class="page">
+
+    <div class="intro" id="intr2.jpeg">
+        <div class="container">
+            <div class="intro__inner">
+                <h1 class="intro__title">AvtoDrive</h1>
+            </div>
+        </div>
+</div>
+
+    <section class="section" id="about">
+        <div class="container">
+
+            <div class="section__header">
+                <h3 class="section__suptitle">НЕМНОГО О НАС</h3>
+                <h2 class="section__title">Почему люди выбирают наш автосправочник</h200 vb>
+                <div class="section__text">
+                    <p>именно в нашем справочнике можете узнать последние новости мира авто,или же подобрать под себя автомобиль по вашим предпочтениям,AvtoDrive всегда на связи.</p>
+                </div>
+            </div>
+
+    </section>
+
+
+    <div class="statistics">
+        <div class="container">
+
+            <div class="stat">
+                <a class="stat__item" href="https://www.volkswagen.kz/ru/models/passat.html" target="_blank">
+                    <i class="stat__count">volkswagen.com</i>
+                </a>
+                <a class="stat__item" href="https://lada-kazakhstan.kz/?ysclid=lqmagplfou577692271" target="_blank">
+                    <i class="stat__count">vaz.com</i>
+                </a>
+                <a class="stat__item" href="https://www.mercedes-benz.com/en/" target="_blank">
+                    <i class="stat__count">mers.com</i>
+                </a>
+                <a class="stat__item" href="https://www.bmw-kz.com/ru/all-models/x-series/X6/2021/bmw-x6-highlights.html?utm_source=NT&utm_medium=cpc&utm_campaign=x6&utm_term=ya_native1&utm_content=1321_2_2&yclid=9152836338640748543" target="_blank">
+                    <i class="stat__count">bmw.com</i>
+                </a>
+                <a class="stat__item" href="https://www.toyota.com/camry/" target="_blank">
+                    <i class="stat__count">camry.com</i>
+                </a>
+            </div>
+
+        </div>
+    </div>
+
+    <section class="section">
+        <div class="container">
+
+            <div class="section__header">
+                <h3 class="section__suptitle">рекомендации</h3>
+                <h2 class="section__title"></h2>
+                <div class="section__text">
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card__item">
+                    <div class="card__inner">
+                        <div class="card__img">
+                            <img src="/Новая папка/5.jpg" alt="">
+                        </div>
+                        <div class="card__text">
+                            <div class="social">
+                                <a class="social__item" href="#" target="_blank">
+                                    <i class="fab fa-facebook-f"></i>
+                                </a>
+                                <a class="social__item" href="https://www.instagram.com/engineering_sdu/" target="_blank">
+                                    <i class="fab fa-instagram"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card__info">
+                        <div class="card__name">факультет инженерии и естественны</div>
+                    </div>
+                </div>
+
+                <div class="card__item">
+                    <div class="card__inner">
+                        <div class="card__text">
+                            <div class="social">
+                                <a class="social__item" href="#" target="_blank">
+                                    <i class="fab fa-facebook-f"></i>
+                                </a>
+                                
+                                <a class="social__item" href="https://www.instagram.com/edufaculty_sdu/" target="_blank">
+                                    <i class="fab fa-instagram"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card__info">
+                        <div class="card__name">факультет педагогических и гуманитарных наук</div>
+                    </div>
+                </div>
+
+                <div class="card__item">
+                    <div class="card__inner">
+                        <div class="card__img">
+                            <img src="/Новая папка/7.jpg" alt="">
+                        </div>
+                        <div class="card__text">
+                            <div class="social">
+                                <a class="social__item" href="#" target="_blank">
+                                    <i class="fab fa-facebook-f"></i>
+                                
+                                <a class="social__item" href="https://www.instagram.com/sdu_lss/" target="_blank">
+                                    <i class="fab fa-instagram"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card__info">
+                        <div class="card__name">факультет права и социальных наук</div>
+                    </div>
+                </div>
+                    
+            </div>
+
+        </div>
+    </section>
+    <section class="section" id="works">
+        <div class="container">
+            <div class="section__header">
+                <h3 class="section__suptitle">Наши рекомендации</h3>
+                <h2 class="section__title">казахский автопром</h2>
+                <div class="section__text">
+                    <p>типы машин которые вы могли бы предпочти себе или окружающим вас людей</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="works">
+            <div class="works__col">
+                <div class="works__item">
+                    <img class="works__image" src="assets/images/cars/1.jpg" alt="">
+                    <div class="works__info">
+                        <div class="works__title">Легковые</div>
+                        <div class="works__text">кабриолеты</div>
+                    </div>
+                </div>
+                <div class="works__item">
+                    <img class="works__image" src="assets/images/cars/2.jpg" alt="">
+                    <div class="works__info">
+                        <div class="works__title">Легковые</div>
+                        <div class="works__text">лифтбэк</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="works__col">
+                <div class="works__item">
+                    <img class="works__image" src="assets/images/cars/3.jpg" alt="">
+                    <div class="works__info">
+                        <div class="works__title">Внедорожники</div>
+                        <div class="works__text"></div>
+                    </div>
+                </div>
+                <div class="works__item">
+                    <img class="works__image" src="assets/images/cars/4.jpg" alt="">
+                    <div class="works__info">
+                        <div class="works__title">Легковые</div>
+                        <div class="works__text">седаны</div>
+                    </div>
+                </div>
+            </div>
+    <section class="section  section--clients">
+        <div class="container">
+
+            <div class="section__header">
+                <h2 class="section__title">Автокорпорации</h2>
+            </div>
+        </section>
+            <div class="clients">
+                <div class="clients__item">
+                    <img class="clients__photo" src="https://www.peoples.ru/business/auto/bmw/bmw_2.jpg" alt="">
+                    <div class="clients__content">
+                        <div class="clients__name">BMW</div>
+                        <div class="clients__prof">germany</div>
+                        <div class="clients__text"></div>
+                    </div>
+                </div>
+
+                <div class="clients__item">
+                    <img class="clients__photo" src="https://a.d-cd.net/w6AAAgIrMuA-1920.jpg" alt="">
+                    <div class="clients__content">
+                        <div class="clients__name">Toyota camry</div>
+                        <div class="clients__prof"></div>
+                        <div class="clients__text">.</div>
+                    </div>
+                </div>
+
+                <div class="clients__item">
+                    <img class="clients__photo" src="https://a.d-cd.net/UYcV67CjSMRt4TrNgs4nbwY2oDA-1920.jpg" alt="">
+                    <div class="clients__content">
+                        <div class="clients__name">Mercedes</div>
+                        <div class="clients__prof"></div>
+                        <div class="clients__text">.</div>
+                    </div>
+                </div>
+
+                <div class="clients__item">
+                    <img class="clients__photo" src="https://img.theepochtimes.com/assets/uploads/2021/12/01/A-new-logo-of-German-carmaker-Volkswagen-is-unveiled-in-Wolfsburg-Germany.jpeg" alt="">
+                    <div class="clients__content">
+                        <div class="clients__name">volkswagen</div>
+                        <div class="clients__prof"></div>
+                        <div class="clients__text">.</div>
+                    </div>
+                </div>
+
+                <div class="clients__item">
+                    <img class="clients__photo" src="https://images.squarespace-cdn.com/content/v1/5b098d691137a6ae9be0ec8a/1562575549473-80VEWLHM9TCVDXY6AUUO/Lada-Logo-Vinyl-Decal.jpg?format=1500w" alt="">
+                    <div class="clients__content">
+                        <div class="clients__name">LADA</div>
+                        <div class="clients__prof"></div>
+                        <div class="clients__text">.</div>
+                    </div>
+                </div>
+
+                <div class="clients__item">
+                    <img class="clients__photo" src="https://wallpapercave.com/wp/wp3796230.jpg" alt="">
+                    <div class="clients__content">
+                        <div class="clients__name">chevrolet</div>
+                        <div class="clients__prof"></div>
+                        <div class="clients__text">.</div>
+                    </div>
+                </div>
+
+        </div>
+    </section>
+
+
+    <section class="section" id="blog">
+        <div class="container">
+
+            <div class="section__header">
+                <h2 class="section__title">Автоновости</h2>
+            </div>
+
+            <div class="blog">
+                <div class="blog__item">
+                    <div class="blog__header">
+                            <img class="blog__photo" src="https://sportishka.com/uploads/posts/2022-11/1667470012_34-sportishka-com-p-avto-na-vodorode-krasivo-37.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="blog__content">
+                        <div class="blog__title">
+                            <a href="#">Совместное предприятие Dongfeng и Nissan, Venucia, выпустило водородную версию своего кроссовера с двигателем внутреннего сгорания V-Online стоимостью 137 000 долларов. Электромобиль на топливных элементах оснащен литий-железо-фосфатной батареей (LFP) BYD.Электромобиль на топливных элементах оснащен топливным элементом мощностью 60 кВт, который приводит в действие двигатель мощностью 160 кВт. V-Online использует аккумуляторный блок LFP от аккумуляторного подразделения BYD, FinDream. Водородный кроссовер обеспечивает запас хода в 500 км после 5 минут заправки. Килограмм водорода в автомобиле позволяет проехать 120 км. Автомобиль может работать при температуре от -40 до 60 °C и имеет аккумуляторный бак, рассчитанный на давление 70 МПаЭто не первый автомобиль Dongfeng, работающий на водороде. В 2020 году компания выпустила Qingzhou E-H2. </a>
+                        </div>
+                        <div class="blog__text"></div>
+                    </div>
+                </div>
+
+                <div class="blog__item">
+                    <div class="blog__header">
+                            <img class="blog__photo" src="https://www.carztuning.com/wp-content/uploads/2018/10/Koenigsegg-Agera-RS-1160x773.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="blog__content">
+                        <div class="blog__title">
+                            <a href="#">Koenigsegg Agera RS</a>
+                        <a>Koenigsegg Agera RS (тот самый Bugatti Chiron Sport был прототипом) и стал самым быстрым серийным автомобилем на планете — 508,73 км/ч против 446,97 км/ч. В зачёт пошло среднее арифметическое значение результатов двух заездов. И если в первом британец разогнал Туатару до 484,53 км/ч, то при движении в обратную сторону — до ошеломительных 532,93!</a>
+                        </div>
+                        <div class="blog__text"></div>
+                    </div>
+                </div>
+                <div class="blog__item">
+                    <div class="blog__header">
+                            <img class="blog__photo" src="https://autotopik.ru/wp-content/uploads/2020/09/1-30.jpg" alt="">                        </a>
+                    <div class="blog__content">
+                        <div class="blog__title">
+                            <a href="#">Mercedes Benz вывел на дорожные тесты уникальную машину – прототип автомобиля будущего VISION AVTR или просто АВАТАР. Авто поражает своими инновациями.</a>
+                            <a>Футуристический дизайн разрабатывали совместно с создателем фильма «Аватар» Джеймсом Кэмероном.
+
+                                Немецкий полностью электрический VISION AVTR максимально дружественный к окружающей среде. Графеновый аккумулятор на 110 кВт*ч обеспечивает работу четырех электрических моторов общей мощностью в 500 л.с. и гарантирует 700 км пробега.Но самое интересное в середине. Аватаром с искусственным интеллектом можно управлять фактически силой мысли. Ни руля, ни панели приборов нет. Машина узнает владельца по дыханию и пульсу.
+    
+                                А что Вы думаете про это авто? Будущее уже рядом? </a>
+                        </div>
+                        <div class="blog__text"></div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+    
+    <section class="section  section--map">
+        <div class="container">
+            <div class="map">
+                <h2 class="map__title">
+                    <div><i class="fas fa-map-marker-alt"></i></div>
+                    <a href="https://www.google.ru/maps/d/viewer?mid=1LebcMa1sO545HbMfDYPa8GMTmpt39bm_&hl=ru&ll=1.3210659772479638%2C103.86511500000002&z=10" target="_blank">Одни из самых дорогих авто тут!!!</a>
+                </h2>
+            </div>
+        </div>
+    </section>
+
+    
+</div>
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<script src="assets/js/app.js"></script>
+
+
+</body>
+</html>
